@@ -26,6 +26,9 @@ Output:
 Time: O(n^4) .  Space: O(n^3)
 
 Solution:
+Source: https://leetcode.com/problems/remove-boxes/discuss/101310/Java-top-down-and-bottom-up-DP-solutions
+https://leetcode.com/problems/remove-boxes/discuss/101325/Java-DP-%2B-Memorization-60ms
+
 => T(i, j, k) which denotes the maximum points possible by removing the boxes of subarray boxes[i, j] with k boxes 
 attached to its left of the same color as boxes[i]
 => Our original problem now becomes T(0, n - 1, 0), since there is no boxes attached to the left of the input array 
