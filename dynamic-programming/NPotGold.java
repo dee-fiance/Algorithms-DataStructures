@@ -1,4 +1,5 @@
 /**
+#Optimal Strategy for a Game #NPotGold
 Consider a row of n coins of values v1 . . . vn, where n is even. 
 We play a game against an opponent by alternating turns. In each turn, a player selects either the first or last coin
 from the row, removes it from the row permanently, and receives the value of the coin. Determine the maximum possible 
@@ -25,7 +26,6 @@ Entry of table: (First,second)
 Diagonal: Only one coin and first player picks then 0 left for second player
 Len of 2, first picks higher value.
 When first picks first, what is left is min for second.
-#NPotGold
 
 Time: O(n2) 
 **/
