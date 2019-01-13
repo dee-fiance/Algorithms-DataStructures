@@ -51,7 +51,7 @@ Therefore the final answer for this case will be: max(T(i + 1, m - 1, 0) + T(m,
 where i < m <= j && boxes[i] == boxes[m].
 ***/
 
-public class removeBoxes {
+public class RemoveBoxes {
     public int removeBoxes(int[] boxes) {
         if (boxes == null || boxes.length == 0) {
             return 0;
@@ -86,9 +86,8 @@ public class removeBoxes {
      }
      
      public static void main(String[] args) { 
-	     removeBoxes r = new removeBoxes();
+	     RemoveBoxes r = new RemoveBoxes();
 	     int[] boxes = new int[] {1, 3, 2, 2, 2, 3, 4, 3, 1, 3}; //28
 	     System.out.println("Max points: "+ r.removeBoxes(boxes));
-	   }
- 
+     }
 }
