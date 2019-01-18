@@ -12,7 +12,7 @@ public class BinaryTreeTraversals {
       left=right=null; 
     } 
   } 
-  public TreeNode constructTree() { 
+  public void constructTree() { 
     root = new TreeNode(1); 
     root.left = new TreeNode(2); 
     root.left.left = new TreeNode(3); 
